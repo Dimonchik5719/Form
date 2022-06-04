@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Bentley 8 Litre был лучшим автомобилем класса Gran Turismo, созданным 
+У.О. Бентли. Он также стал последним автомобилем, разработанным 
+У.О. Бентли для Bentley Motors. Это произошло в 1930 году. 8 Litre был 
+самым большим и роскошным Bentley своего времени. Однако его выпуск 
+пришелся на времена Великой депрессии, последовавшей за крахом на 
+Уолл-стрит и финансовым кризисом. Спрос на этот автомобиль снизился, 
+и компания столкнулась с финансовыми трудностями, что привело к смене 
+ее владельца. В результате с 1930 по 1932 год было собрано всего 100 
+экземпляров Bentley 8 Litre.</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Bentley 4 ¼ Litre Derby, который рекламировали как «бесшумный спортивный автомобиль», 
+отличался изысканностью и надежностью, за что его очень любили владельцы, среди 
+которых был и обладатель рекорда скорости на суше сэр Малькольм Кэмпбелл (Sir Malcolm 
+Campbell). Но в конце 1930-х годов стало очевидно, что конструкция шасси устарела. 
+Появилось множество конкурентов с более новыми конструкциями, и продажи упали. 
+Ответом компании стал Bentley Mark V, но его век был недолог, так как разразилась 
+Вторая мировая война, которая остановила все производство автомобилей вплоть до 
+1946 года. После войны первым автомобилем, который покинул стены завода в Крю, 
+был крайне успешный впоследствии Bentley Mark VI. Это была эффективно и полностью 
+доработанная версия автомобиля Mark V, включая все компоненты и технические 
+изменения, изначально запланированные для предшественника.</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Bentley 3 Litre — это воплощенная в жизнь мечта У.О. Бентли создать «быстрый 
+автомобиль, хороший автомобиль, лучший в своем классе». Он выпускался с 
+1921 по 1929 год и выиграл бессчетное количество гонок, включая «24 часа 
+Ле-Мана» в 1924 и 1927 годах. Жемчужина исторической коллекции компании — 
+автомобиль EXP 2, второй экспериментальный Bentley 3 Litre. Это самый старый из 
+сохранившихся по сей день Bentley и первый автомобиль марки, выигравший гонку.</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Окрыленная успехом R-Type Continental, компания Bentley продолжала предлагать 
+трансмиссию и шасси Continental после запуска новой S-серии в 1955 году. Ателье 
+H.J. Mulliner, Park Ward, James Young, Hooper, Graber and Franay — все они выпускали 
+собственные варианты двухдверного кузова для шасси, но именно ателье H.J. Mulliner 
+первым предложило четырехдверную версию — Continental Flying Spur.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>В 1952 году автомобили, которые могли разогнаться до 185 км/ч, были редкостью. 
+И пока на свет не появился R Type Continental, никто не мог подумать, что автомобиль, 
+вмещающий четырех человек в салоне и их поклажу в багажнике, способен перемещаться 
+с крейсерской скоростью 160 км/ч. Хотя было выпущено всего 208 экземпляров, R Type 
+Continental на многие десятилетия стал для Bentley эталоном автомобиля класса Gran Turismo. 
+Спустя полвека он же послужил источником вдохновения для команды дизайнеров первого 
+Continental GT.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Для многих поклонников марки импозантный Bentley Blower является культовым 
+гоночным Bentley довоенных лет и прочно ассоциируется с его лихим водителем, 
+одним из Bentley Boys — сэром Генри (Тимом) Биркином (Sir Henry (Tim) Birkin). По 
+иронии судьбы 4 ½ Litre с турбонаддувом был наименее конкурентоспособным из 
+всех Bentley, изготавливаемых в Криклвуде, и основатель компании У.О. Бентли 
+всячески возражал против его развития. Но весь период своего существования 
+Bentley 4 ½ Litre</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Родившийся в 1888 году, самый младший из девяти детей в семье, Уолтер Оуэн Бентли 
+предпочитал, чтобы его называли У.О. Он основал компанию, назвав ее собственным 
+именем, 10 июля 1919 года. Спустя почти столетие его имя известно во всем мире и 
+ассоциируется с мощными, роскошными автомобилями, вручную собранными из 
+лучших материалов. О человеке, который навсегда изменил наши представления об 
+автомобилях, стоит узнать подробнее.
+
+Компания Bentley Motors была основана У.О. Бентли. Первый автомобиль Bentley 
+выехал за ворота мастерской New Street Mews в Лондоне в 1919 году.
+
+Шаг за шагом компания продвигалась вперед в своем стремлении к роскоши и 
+максимальной динамике автомобилей Bentley. Если бы не пять побед марки в 
+Ле-Мане в 1920-х годах и шестая в 2003 году, эти два качества могли бы показаться 
+противоречащими друг другу. Но это еще один повод заявить, что Bentley продолжает 
+создавать самые признанные противоречия в мире автомобилей.</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>История продолжается: новые Bentley Boys
+Bentley — это целый мир, в котором исключительные автомобили встречаются с 
+исключительными людьми. Благодаря инженерам и пилотам Bentley, которые на 
+пределе возможностей бесстрашно испытывают технику и себя самих, автомобили 
+нашей марки остается символами мощи и роскоши. История марки изначально строилась 
+на ее взаимоотношениях с выдающимися мужчинами и женщинами. И ХХI век подарил 
+миру новых Bentley Boys, каждый из которых вносит свой вклад в достижения команды 
+благодаря своим особенным талантам.</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Наряду с основателем компании Уолтером Оуэном Бентли первые гонщики 
+Bentley Boys и вдохновляющие истории их успеха стали частью имиджа марки. 
+И сегодня их дух живет в новых Bentley Boys.
+
+Они вдохновляют новые поколения. Снова и снова.
+Готовые в любой момент участвовать в гонке, отправиться в увлекательное 
+путешествие или пить шампанское, первые Bentley Boys были дружной компанией 
+ловеласов, гонщиков и любителей приключений, которые купались в лучах своей 
+славы в 20-х и 30-х годах прошлого века. Уже одним своим существованием они 
+вдохновляли целое поколение владельцев автомобилей Bentley и поклонников марки. 
+Благодаря страсти к вождению и готовности к преодолению трудностей они были 
+настоящими кумирами. За рулем автомобилей Bentley они триумфально покорили трассу 
+в Ле-Мане, одержав пять побед всего за восемь лет.</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Легендарные гонщики-мужчины Bentley Boys, возможно, задали темп, однако Bentley Girls 
+отказались просто сидеть на заднем сиденье — вместо этого они внесли свой вклад в 
+развитие уникального стиля Bentley. Мэри Питер Брюс (Mary Petre Bruce), Дороти Пэйджет 
+и Диана Барнато — «Летающая леди Bentley» — каждая из них сыграла важную роль в 
+создании легендарной истории Bentley.
+
+Мэри Питер Брюс: рожденная для скорости
+Мэри Питер обожала скорость с рождения. Она ни в чем не уступала другим гонщикам 
+Bentley и в 15 лет стала первой женщиной Великобритании, получившей штраф за 
+превышение скорости. В 1926 году она вышла замуж за достопочтенного Виктора 
+Брюса, победившего чуть ранее в этом году на Ралли Монте-Карло. Дух соперничества 
+был у нее в крови, и в следующем году она сама приняла участие в ралли. Проехав более 
+2700 км за 72 часа без перерывов на сон, она заняла шестое место в общем зачете и стала 
+обладательницей Женского кубка. Она не желала почивать на лаврах и в 1928 году пришла 
+второй в общем зачете. В течение последующих лет она и ее муж, достопочтенный Виктор 
+Брюс, установили множество рекордов дальности заездов, составлявших от 6500 до 24 000 км.</value>
+  </data>
+</root>
